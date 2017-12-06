@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Timeline from './Components/Timeline/Timeline';
+import App from './Container';
+import 'font-awesome/css/font-awesome.css';
 
 export const load = () => {
     ReactDOM.render(
-        <Timeline />,
+        <App />,
         document.getElementById('demo1')
     );
 }
