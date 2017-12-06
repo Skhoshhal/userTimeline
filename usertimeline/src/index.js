@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Timeline from './Components/Timeline/Timeline';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+export const load = () => {
+    ReactDOM.render(
+        <Timeline />,
+        document.getElementById('demo1')
+    );
+}
+try {
+    setTimeout(load, 100)
+} catch(e) {
+    console.log('e ->', e)
+}
+
