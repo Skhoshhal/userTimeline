@@ -7,7 +7,7 @@ class App extends React.Component {
         return(
             <div className="notificationsFrame">
                 <div className="panel">
-                    <Header/>
+                    <Header title="Chat room"/>
                     <Content/>
                 </div>
             </div>
