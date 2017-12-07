@@ -3,10 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullstackio/cqmd": "^5.1.2",
+    "autoprefixer": "^7.2.1",
+    "babel-polyfill": "^6.26.0",
+    "cqmd": "fullstackio/cqmd",
     "font-awesome": "^4.7.0",
+    "gray-matter": "^3.1.1",
+    "highlight.js": "^9.12.0",
+    "hljs": "^6.2.3",
+    "map-stream": "^0.0.7",
+    "postcss-cli": "^4.1.1",
+    "postcss-import": "^11.0.0",
+    "precss": "^2.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "vinyl-fs": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

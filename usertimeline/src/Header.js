@@ -10,7 +10,7 @@ class Header extends React.Component {
                     <div className="dashBottom"></div>
                     <div className="circle"></div>
                 </div>
-                <span className="title">Time line</span>
+                <span className="title">{this.props.title}</span>
                     <input
                         type="text"
                         className="searchInput"
